@@ -57,11 +57,11 @@
             </objects>
             <point key="canvasLocation" x="-719" y="-175"/>
         </scene>
-        <!--Item 1-->
+        <!--Art-->
         <scene sceneID="pMY-Yb-Oiz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D5P-zf-fxN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="3Q4-Mj-5Gm"/>
+                    <tabBarItem key="tabBarItem" title="Art" selectedImage="paintbrush" catalog="system" id="3Q4-Mj-5Gm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xb8-pY-kfG">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -76,11 +76,11 @@
             </objects>
             <point key="canvasLocation" x="200.00000000000003" y="-500.22321428571428"/>
         </scene>
-        <!--Item 2-->
+        <!--Favorites-->
         <scene sceneID="rog-yJ-OE1">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hsp-7c-f7z" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="GnM-so-Me0"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" selectedImage="heart" catalog="system" id="GnM-so-Me0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5GS-hR-BcK">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -132,4 +132,8 @@
             <point key="canvasLocation" x="200.00000000000003" y="844.41964285714278"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="heart" catalog="system" width="64" height="54"/>
+        <image name="paintbrush" catalog="system" width="64" height="64"/>
+    </resources>
 </document>

@@ -10,6 +10,7 @@ target 'CTAEvents' do
    pod 'Firebase/Auth'
    pod 'Firebase/Firestore'
    pod 'FirebaseFirestoreSwift'
+   pod 'Alamofire'
    
   target 'CTAEventsTests' do
     inherit! :search_paths
