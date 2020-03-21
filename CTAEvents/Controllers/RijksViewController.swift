@@ -8,8 +8,12 @@
 
 import UIKit
 
-class ArtViewController: UIViewController {
+class RijksViewController: UIViewController {
 
+    
+    @IBOutlet weak var rijksSearch: UISearchBar!
+    @IBOutlet weak var rijksTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

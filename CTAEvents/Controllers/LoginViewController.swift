@@ -13,7 +13,7 @@ enum AccountState {
   case existingUser
   case newUser
 }
-
+//TODO: Fix keyboard handling IS Secure Text
 class LoginViewController: UIViewController {
 
      public var loginView = LoginView()

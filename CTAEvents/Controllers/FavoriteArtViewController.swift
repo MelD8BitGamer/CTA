@@ -10,6 +10,9 @@ import UIKit
 
 class FavoriteArtViewController: UIViewController {
 
+    @IBOutlet weak var favsSearch: UISearchBar!
+    @IBOutlet weak var favCollection: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

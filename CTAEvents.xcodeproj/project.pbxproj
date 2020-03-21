@@ -11,10 +11,16 @@
 		4D20F0C42425348B00CE0EE2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C32425348B00CE0EE2 /* TabBarController.swift */; };
 		4D20F0C6242535AC00CE0EE2 /* MainViewStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D20F0C5242535AC00CE0EE2 /* MainViewStoryBoard.storyboard */; };
 		4D20F0C8242538EB00CE0EE2 /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C7242538EB00CE0EE2 /* NavigationExtension.swift */; };
-		4D20F0CA242568EC00CE0EE2 /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C9242568EC00CE0EE2 /* ArtViewController.swift */; };
+		4D20F0CA242568EC00CE0EE2 /* RijksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C9242568EC00CE0EE2 /* RijksViewController.swift */; };
 		4D20F0CC2425690500CE0EE2 /* FavoriteArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0CB2425690500CE0EE2 /* FavoriteArtViewController.swift */; };
-		4D20F0CE2425692800CE0EE2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0CD2425692800CE0EE2 /* APIClient.swift */; };
+		4D20F0CE2425692800CE0EE2 /* RijksAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0CD2425692800CE0EE2 /* RijksAPIClient.swift */; };
 		4D20F0D224256C6800CE0EE2 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D124256C6800CE0EE2 /* Secret.swift */; };
+		4D20F0D424257AF700CE0EE2 /* RijksTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D324257AF700CE0EE2 /* RijksTableCell.swift */; };
+		4D20F0D62425942E00CE0EE2 /* RijksDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D52425942E00CE0EE2 /* RijksDetailModel.swift */; };
+		4D20F0D82425944700CE0EE2 /* TicketmastetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D72425944700CE0EE2 /* TicketmastetModel.swift */; };
+		4D20F0DA2425945600CE0EE2 /* TicketmasterDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D92425945600CE0EE2 /* TicketmasterDetailModel.swift */; };
+		4D20F0DC242599A000CE0EE2 /* TicketMasterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0DB242599A000CE0EE2 /* TicketMasterAPIClient.swift */; };
+		4D20F0DE24259E5900CE0EE2 /* DatabaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */; };
 		4D78074624210BA800A1ED74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074524210BA800A1ED74 /* AppDelegate.swift */; };
 		4D78074824210BA800A1ED74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074724210BA800A1ED74 /* SceneDelegate.swift */; };
 		4D78074A24210BA800A1ED74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074924210BA800A1ED74 /* LoginViewController.swift */; };
@@ -48,10 +54,16 @@
 		4D20F0C32425348B00CE0EE2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4D20F0C5242535AC00CE0EE2 /* MainViewStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewStoryBoard.storyboard; sourceTree = "<group>"; };
 		4D20F0C7242538EB00CE0EE2 /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
-		4D20F0C9242568EC00CE0EE2 /* ArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
+		4D20F0C9242568EC00CE0EE2 /* RijksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksViewController.swift; sourceTree = "<group>"; };
 		4D20F0CB2425690500CE0EE2 /* FavoriteArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteArtViewController.swift; sourceTree = "<group>"; };
-		4D20F0CD2425692800CE0EE2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = CTAEvents/Controllers/APIClient.swift; sourceTree = SOURCE_ROOT; };
+		4D20F0CD2425692800CE0EE2 /* RijksAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RijksAPIClient.swift; path = CTAEvents/Controllers/RijksAPIClient.swift; sourceTree = SOURCE_ROOT; };
 		4D20F0D124256C6800CE0EE2 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		4D20F0D324257AF700CE0EE2 /* RijksTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RijksTableCell.swift; path = CTAEvents/Storyboards/RijksTableCell.swift; sourceTree = SOURCE_ROOT; };
+		4D20F0D52425942E00CE0EE2 /* RijksDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksDetailModel.swift; sourceTree = "<group>"; };
+		4D20F0D72425944700CE0EE2 /* TicketmastetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketmastetModel.swift; sourceTree = "<group>"; };
+		4D20F0D92425945600CE0EE2 /* TicketmasterDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketmasterDetailModel.swift; sourceTree = "<group>"; };
+		4D20F0DB242599A000CE0EE2 /* TicketMasterAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterAPIClient.swift; sourceTree = "<group>"; };
+		4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseServices.swift; sourceTree = "<group>"; };
 		4D78074224210BA800A1ED74 /* CTAEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTAEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D78074524210BA800A1ED74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D78074724210BA800A1ED74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +190,7 @@
 		4D78079B24241DBE00A1ED74 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				4D20F0D324257AF700CE0EE2 /* RijksTableCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -187,7 +200,7 @@
 			children = (
 				4D78074924210BA800A1ED74 /* LoginViewController.swift */,
 				4D20F0C32425348B00CE0EE2 /* TabBarController.swift */,
-				4D20F0C9242568EC00CE0EE2 /* ArtViewController.swift */,
+				4D20F0C9242568EC00CE0EE2 /* RijksViewController.swift */,
 				4D20F0CB2425690500CE0EE2 /* FavoriteArtViewController.swift */,
 			);
 			path = Controllers;
@@ -197,6 +210,9 @@
 			isa = PBXGroup;
 			children = (
 				4D7807672421232000A1ED74 /* RijksModel.swift */,
+				4D20F0D52425942E00CE0EE2 /* RijksDetailModel.swift */,
+				4D20F0D72425944700CE0EE2 /* TicketmastetModel.swift */,
+				4D20F0D92425945600CE0EE2 /* TicketmasterDetailModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,7 +220,8 @@
 		4D78079E24241E6900A1ED74 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				4D20F0CD2425692800CE0EE2 /* APIClient.swift */,
+				4D20F0CD2425692800CE0EE2 /* RijksAPIClient.swift */,
+				4D20F0DB242599A000CE0EE2 /* TicketMasterAPIClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -213,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7807A42425066F00A1ED74 /* AuthenticationServices.swift */,
+				4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */,
 			);
 			path = FirebaseServices;
 			sourceTree = "<group>";
@@ -418,15 +436,21 @@
 			files = (
 				4D7807A924250D9E00A1ED74 /* MulticolorExtension.swift in Sources */,
 				4D20F0D224256C6800CE0EE2 /* Secret.swift in Sources */,
-				4D20F0CA242568EC00CE0EE2 /* ArtViewController.swift in Sources */,
+				4D20F0DE24259E5900CE0EE2 /* DatabaseServices.swift in Sources */,
+				4D20F0D82425944700CE0EE2 /* TicketmastetModel.swift in Sources */,
+				4D20F0CA242568EC00CE0EE2 /* RijksViewController.swift in Sources */,
 				4D20F0C224252A8C00CE0EE2 /* ShowAlertExtension.swift in Sources */,
 				4D7807A724250D6900A1ED74 /* LoginView.swift in Sources */,
+				4D20F0DC242599A000CE0EE2 /* TicketMasterAPIClient.swift in Sources */,
 				4D20F0CC2425690500CE0EE2 /* FavoriteArtViewController.swift in Sources */,
 				4D20F0C42425348B00CE0EE2 /* TabBarController.swift in Sources */,
 				4D7807A52425066F00A1ED74 /* AuthenticationServices.swift in Sources */,
+				4D20F0D62425942E00CE0EE2 /* RijksDetailModel.swift in Sources */,
+				4D20F0DA2425945600CE0EE2 /* TicketmasterDetailModel.swift in Sources */,
 				4D78074A24210BA800A1ED74 /* LoginViewController.swift in Sources */,
 				4D78074624210BA800A1ED74 /* AppDelegate.swift in Sources */,
-				4D20F0CE2425692800CE0EE2 /* APIClient.swift in Sources */,
+				4D20F0D424257AF700CE0EE2 /* RijksTableCell.swift in Sources */,
+				4D20F0CE2425692800CE0EE2 /* RijksAPIClient.swift in Sources */,
 				4D20F0C8242538EB00CE0EE2 /* NavigationExtension.swift in Sources */,
 				4D78074824210BA800A1ED74 /* SceneDelegate.swift in Sources */,
 				4D7807682421232000A1ED74 /* RijksModel.swift in Sources */,
