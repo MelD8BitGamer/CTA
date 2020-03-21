@@ -9,5 +9,6 @@
 import Foundation
 
 struct Secret {
-    static let APIKey = "csqpt9mL"
+    static let RijksAPIKey = "csqpt9mL"
+    static let tMasterKey = "o117bXjpo53BUrnJXB2TfwjvtfGiUz8i"
 }

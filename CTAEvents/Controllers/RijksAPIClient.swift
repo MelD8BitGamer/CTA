@@ -9,9 +9,10 @@ import UIKit
 import Alamofire
 
 struct RijksAPIClient {
+    //TODO: Fix API
     static func fetchArt(searchQuery: String, completion: @escaping (AFResult<[ArtObject]>) -> ()) { //or ArtWrapper
 //        CompilerErrorGeneric type 'Result' specialized with too few type parameters (got 1, but expected 2) so you need to put AF in front of RESULT
-        let endpointURLString = "https://www.rijksmuseum.nl/api/en/collection?key=\(Secret.APIKey)&q=\(searchQuery)"
+        let endpointURLString = "https://www.rijksmuseum.nl/api/en/collection?key=\(Secret.RijksAPIKey)&q=\(searchQuery)"
         
         // we need a URL
         guard let url = URL(string: endpointURLString) else {
@@ -36,6 +37,11 @@ struct RijksAPIClient {
                 }
             }
         }
+    }
+    
+    static func fetchDetailedArt(objectNumber: String, completion: @escaping (AFResult<>) ->()) {
+        
+        let endpointURLString = "https://www.rijksmuseum.nl/api/en/collection/\(objectNumber)?key=\(Secret.RijksAPIKey)"
     }
     
 }
