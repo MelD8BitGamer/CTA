@@ -3,17 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D20F0C224252A8C00CE0EE2 /* ShowAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C124252A8C00CE0EE2 /* ShowAlertExtension.swift */; };
+		4D20F0C42425348B00CE0EE2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C32425348B00CE0EE2 /* TabBarController.swift */; };
+		4D20F0C6242535AC00CE0EE2 /* MainViewStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D20F0C5242535AC00CE0EE2 /* MainViewStoryBoard.storyboard */; };
+		4D20F0C8242538EB00CE0EE2 /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C7242538EB00CE0EE2 /* NavigationExtension.swift */; };
+		4D20F0CA242568EC00CE0EE2 /* RijksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0C9242568EC00CE0EE2 /* RijksViewController.swift */; };
+		4D20F0CC2425690500CE0EE2 /* FavoriteArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0CB2425690500CE0EE2 /* FavoriteArtViewController.swift */; };
+		4D20F0CE2425692800CE0EE2 /* RijksAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0CD2425692800CE0EE2 /* RijksAPIClient.swift */; };
+		4D20F0D224256C6800CE0EE2 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D124256C6800CE0EE2 /* Secret.swift */; };
+		4D20F0D424257AF700CE0EE2 /* RijksTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D324257AF700CE0EE2 /* RijksTableCell.swift */; };
+		4D20F0D62425942E00CE0EE2 /* RijksDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D52425942E00CE0EE2 /* RijksDetailModel.swift */; };
+		4D20F0D82425944700CE0EE2 /* TicketmastetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D72425944700CE0EE2 /* TicketmastetModel.swift */; };
+		4D20F0DA2425945600CE0EE2 /* TicketmasterDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0D92425945600CE0EE2 /* TicketmasterDetailModel.swift */; };
+		4D20F0DC242599A000CE0EE2 /* TicketMasterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0DB242599A000CE0EE2 /* TicketMasterAPIClient.swift */; };
+		4D20F0DE24259E5900CE0EE2 /* DatabaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */; };
 		4D78074624210BA800A1ED74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074524210BA800A1ED74 /* AppDelegate.swift */; };
 		4D78074824210BA800A1ED74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074724210BA800A1ED74 /* SceneDelegate.swift */; };
-		4D78074A24210BA800A1ED74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074924210BA800A1ED74 /* ViewController.swift */; };
-		4D78074D24210BA800A1ED74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D78074B24210BA800A1ED74 /* Main.storyboard */; };
+		4D78074A24210BA800A1ED74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074924210BA800A1ED74 /* LoginViewController.swift */; };
 		4D78074F24210BAF00A1ED74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D78074E24210BAF00A1ED74 /* Assets.xcassets */; };
 		4D78075224210BAF00A1ED74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D78075024210BAF00A1ED74 /* LaunchScreen.storyboard */; };
 		4D78075D24210BB000A1ED74 /* CTAEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78075C24210BB000A1ED74 /* CTAEventsTests.swift */; };
+		4D7807682421232000A1ED74 /* RijksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7807672421232000A1ED74 /* RijksModel.swift */; };
+		4D7807A32424238E00A1ED74 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D7807A22424238E00A1ED74 /* GoogleService-Info (1).plist */; };
+		4D7807A52425066F00A1ED74 /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7807A42425066F00A1ED74 /* AuthenticationServices.swift */; };
+		4D7807A724250D6900A1ED74 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7807A624250D6900A1ED74 /* LoginView.swift */; };
+		4D7807A924250D9E00A1ED74 /* MulticolorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7807A824250D9E00A1ED74 /* MulticolorExtension.swift */; };
+		B3CC895057D1E1C27824FC99 /* Pods_CTAEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A654B9B37DECE38C5879BA /* Pods_CTAEvents.framework */; };
+		B88AF3EFF47DF44289AD0551 /* Pods_CTAEventsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA64467A4D05956B3ABE9B3 /* Pods_CTAEventsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +47,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E987ACCEDC4959CEE1445EC /* Pods-CTAEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAEvents.debug.xcconfig"; path = "Target Support Files/Pods-CTAEvents/Pods-CTAEvents.debug.xcconfig"; sourceTree = "<group>"; };
+		26A654B9B37DECE38C5879BA /* Pods_CTAEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTAEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0D3A90C7C0843E4638C3A9 /* Pods-CTAEventsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAEventsTests.debug.xcconfig"; path = "Target Support Files/Pods-CTAEventsTests/Pods-CTAEventsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D20F0C124252A8C00CE0EE2 /* ShowAlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertExtension.swift; sourceTree = "<group>"; };
+		4D20F0C32425348B00CE0EE2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4D20F0C5242535AC00CE0EE2 /* MainViewStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewStoryBoard.storyboard; sourceTree = "<group>"; };
+		4D20F0C7242538EB00CE0EE2 /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		4D20F0C9242568EC00CE0EE2 /* RijksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksViewController.swift; sourceTree = "<group>"; };
+		4D20F0CB2425690500CE0EE2 /* FavoriteArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteArtViewController.swift; sourceTree = "<group>"; };
+		4D20F0CD2425692800CE0EE2 /* RijksAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RijksAPIClient.swift; path = CTAEvents/Controllers/RijksAPIClient.swift; sourceTree = SOURCE_ROOT; };
+		4D20F0D124256C6800CE0EE2 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		4D20F0D324257AF700CE0EE2 /* RijksTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RijksTableCell.swift; path = CTAEvents/Storyboards/RijksTableCell.swift; sourceTree = SOURCE_ROOT; };
+		4D20F0D52425942E00CE0EE2 /* RijksDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksDetailModel.swift; sourceTree = "<group>"; };
+		4D20F0D72425944700CE0EE2 /* TicketmastetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketmastetModel.swift; sourceTree = "<group>"; };
+		4D20F0D92425945600CE0EE2 /* TicketmasterDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketmasterDetailModel.swift; sourceTree = "<group>"; };
+		4D20F0DB242599A000CE0EE2 /* TicketMasterAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterAPIClient.swift; sourceTree = "<group>"; };
+		4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseServices.swift; sourceTree = "<group>"; };
 		4D78074224210BA800A1ED74 /* CTAEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTAEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D78074524210BA800A1ED74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D78074724210BA800A1ED74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D78074924210BA800A1ED74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D78074C24210BA800A1ED74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D78074924210BA800A1ED74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4D78074E24210BAF00A1ED74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D78075124210BAF00A1ED74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D78075324210BAF00A1ED74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D78075824210BB000A1ED74 /* CTAEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTAEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D78075C24210BB000A1ED74 /* CTAEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAEventsTests.swift; sourceTree = "<group>"; };
 		4D78075E24210BB000A1ED74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7807672421232000A1ED74 /* RijksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksModel.swift; sourceTree = "<group>"; };
+		4D7807A22424238E00A1ED74 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		4D7807A42425066F00A1ED74 /* AuthenticationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
+		4D7807A624250D6900A1ED74 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4D7807A824250D9E00A1ED74 /* MulticolorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorExtension.swift; sourceTree = "<group>"; };
+		D8801378D10E5787A6183077 /* Pods-CTAEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAEvents.release.xcconfig"; path = "Target Support Files/Pods-CTAEvents/Pods-CTAEvents.release.xcconfig"; sourceTree = "<group>"; };
+		EB9446306E11C2FE072AF854 /* Pods-CTAEventsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAEventsTests.release.xcconfig"; path = "Target Support Files/Pods-CTAEventsTests/Pods-CTAEventsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAA64467A4D05956B3ABE9B3 /* Pods_CTAEventsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTAEventsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CC895057D1E1C27824FC99 /* Pods_CTAEvents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +97,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88AF3EFF47DF44289AD0551 /* Pods_CTAEventsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		449D04AFDEEEF56502272240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A654B9B37DECE38C5879BA /* Pods_CTAEvents.framework */,
+				FAA64467A4D05956B3ABE9B3 /* Pods_CTAEventsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D20F0D024256C4300CE0EE2 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				4D20F0D124256C6800CE0EE2 /* Secret.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 		4D78073924210BA800A1ED74 = {
 			isa = PBXGroup;
 			children = (
 				4D78074424210BA800A1ED74 /* CTAEvents */,
+				4D7807A0242420FE00A1ED74 /* Extensions */,
+				4D78079F242420D400A1ED74 /* FirebaseServices */,
+				4D78079E24241E6900A1ED74 /* Network */,
 				4D78075B24210BB000A1ED74 /* CTAEventsTests */,
 				4D78074324210BA800A1ED74 /* Products */,
+				FAC204E1224117DB59687D95 /* Pods */,
+				449D04AFDEEEF56502272240 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +147,15 @@
 		4D78074424210BA800A1ED74 /* CTAEvents */ = {
 			isa = PBXGroup;
 			children = (
-				4D78074524210BA800A1ED74 /* AppDelegate.swift */,
-				4D78074724210BA800A1ED74 /* SceneDelegate.swift */,
-				4D78074924210BA800A1ED74 /* ViewController.swift */,
-				4D78074B24210BA800A1ED74 /* Main.storyboard */,
-				4D78074E24210BAF00A1ED74 /* Assets.xcassets */,
-				4D78075024210BAF00A1ED74 /* LaunchScreen.storyboard */,
+				4D78079D24241DC500A1ED74 /* Models */,
+				4D20F0D024256C4300CE0EE2 /* Secrets */,
+				4D78079924241DBA00A1ED74 /* Supporting Files */,
+				4D7807A12424217A00A1ED74 /* Storyboards */,
+				4D78079C24241DC000A1ED74 /* Controllers */,
+				4D78079B24241DBE00A1ED74 /* Cells */,
+				4D78079A24241DBD00A1ED74 /* Views */,
 				4D78075324210BAF00A1ED74 /* Info.plist */,
+				4D7807A22424238E00A1ED74 /* GoogleService-Info (1).plist */,
 			);
 			path = CTAEvents;
 			sourceTree = "<group>";
@@ -99,6 +169,102 @@
 			path = CTAEventsTests;
 			sourceTree = "<group>";
 		};
+		4D78079924241DBA00A1ED74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D78074724210BA800A1ED74 /* SceneDelegate.swift */,
+				4D78074524210BA800A1ED74 /* AppDelegate.swift */,
+				4D78074E24210BAF00A1ED74 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D78079A24241DBD00A1ED74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D7807A624250D6900A1ED74 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D78079B24241DBE00A1ED74 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4D20F0D324257AF700CE0EE2 /* RijksTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4D78079C24241DC000A1ED74 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D78074924210BA800A1ED74 /* LoginViewController.swift */,
+				4D20F0C32425348B00CE0EE2 /* TabBarController.swift */,
+				4D20F0C9242568EC00CE0EE2 /* RijksViewController.swift */,
+				4D20F0CB2425690500CE0EE2 /* FavoriteArtViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D78079D24241DC500A1ED74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D7807672421232000A1ED74 /* RijksModel.swift */,
+				4D20F0D52425942E00CE0EE2 /* RijksDetailModel.swift */,
+				4D20F0D72425944700CE0EE2 /* TicketmastetModel.swift */,
+				4D20F0D92425945600CE0EE2 /* TicketmasterDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D78079E24241E6900A1ED74 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4D20F0CD2425692800CE0EE2 /* RijksAPIClient.swift */,
+				4D20F0DB242599A000CE0EE2 /* TicketMasterAPIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4D78079F242420D400A1ED74 /* FirebaseServices */ = {
+			isa = PBXGroup;
+			children = (
+				4D7807A42425066F00A1ED74 /* AuthenticationServices.swift */,
+				4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */,
+			);
+			path = FirebaseServices;
+			sourceTree = "<group>";
+		};
+		4D7807A0242420FE00A1ED74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D7807A824250D9E00A1ED74 /* MulticolorExtension.swift */,
+				4D20F0C124252A8C00CE0EE2 /* ShowAlertExtension.swift */,
+				4D20F0C7242538EB00CE0EE2 /* NavigationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D7807A12424217A00A1ED74 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4D78075024210BAF00A1ED74 /* LaunchScreen.storyboard */,
+				4D20F0C5242535AC00CE0EE2 /* MainViewStoryBoard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAC204E1224117DB59687D95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E987ACCEDC4959CEE1445EC /* Pods-CTAEvents.debug.xcconfig */,
+				D8801378D10E5787A6183077 /* Pods-CTAEvents.release.xcconfig */,
+				4A0D3A90C7C0843E4638C3A9 /* Pods-CTAEventsTests.debug.xcconfig */,
+				EB9446306E11C2FE072AF854 /* Pods-CTAEventsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D78076124210BB000A1ED74 /* Build configuration list for PBXNativeTarget "CTAEvents" */;
 			buildPhases = (
+				7118E7BAD11275330A8B727D /* [CP] Check Pods Manifest.lock */,
 				4D78073E24210BA800A1ED74 /* Sources */,
 				4D78073F24210BA800A1ED74 /* Frameworks */,
 				4D78074024210BA800A1ED74 /* Resources */,
+				E28091DB9A28DDEB7319E513 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D78076424210BB000A1ED74 /* Build configuration list for PBXNativeTarget "CTAEventsTests" */;
 			buildPhases = (
+				C902BFC20F1C39FAB1014A22 /* [CP] Check Pods Manifest.lock */,
 				4D78075424210BB000A1ED74 /* Sources */,
 				4D78075524210BB000A1ED74 /* Frameworks */,
 				4D78075624210BB000A1ED74 /* Resources */,
@@ -181,8 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D78075224210BAF00A1ED74 /* LaunchScreen.storyboard in Resources */,
+				4D20F0C6242535AC00CE0EE2 /* MainViewStoryBoard.storyboard in Resources */,
 				4D78074F24210BAF00A1ED74 /* Assets.xcassets in Resources */,
-				4D78074D24210BA800A1ED74 /* Main.storyboard in Resources */,
+				4D7807A32424238E00A1ED74 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +365,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7118E7BAD11275330A8B727D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTAEvents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C902BFC20F1C39FAB1014A22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTAEventsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28091DB9A28DDEB7319E513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTAEvents/Pods-CTAEvents-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTAEvents/Pods-CTAEvents-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTAEvents/Pods-CTAEvents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D78073E24210BA800A1ED74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D78074A24210BA800A1ED74 /* ViewController.swift in Sources */,
+				4D7807A924250D9E00A1ED74 /* MulticolorExtension.swift in Sources */,
+				4D20F0D224256C6800CE0EE2 /* Secret.swift in Sources */,
+				4D20F0DE24259E5900CE0EE2 /* DatabaseServices.swift in Sources */,
+				4D20F0D82425944700CE0EE2 /* TicketmastetModel.swift in Sources */,
+				4D20F0CA242568EC00CE0EE2 /* RijksViewController.swift in Sources */,
+				4D20F0C224252A8C00CE0EE2 /* ShowAlertExtension.swift in Sources */,
+				4D7807A724250D6900A1ED74 /* LoginView.swift in Sources */,
+				4D20F0DC242599A000CE0EE2 /* TicketMasterAPIClient.swift in Sources */,
+				4D20F0CC2425690500CE0EE2 /* FavoriteArtViewController.swift in Sources */,
+				4D20F0C42425348B00CE0EE2 /* TabBarController.swift in Sources */,
+				4D7807A52425066F00A1ED74 /* AuthenticationServices.swift in Sources */,
+				4D20F0D62425942E00CE0EE2 /* RijksDetailModel.swift in Sources */,
+				4D20F0DA2425945600CE0EE2 /* TicketmasterDetailModel.swift in Sources */,
+				4D78074A24210BA800A1ED74 /* LoginViewController.swift in Sources */,
 				4D78074624210BA800A1ED74 /* AppDelegate.swift in Sources */,
+				4D20F0D424257AF700CE0EE2 /* RijksTableCell.swift in Sources */,
+				4D20F0CE2425692800CE0EE2 /* RijksAPIClient.swift in Sources */,
+				4D20F0C8242538EB00CE0EE2 /* NavigationExtension.swift in Sources */,
 				4D78074824210BA800A1ED74 /* SceneDelegate.swift in Sources */,
+				4D7807682421232000A1ED74 /* RijksModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +476,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D78074B24210BA800A1ED74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D78074C24210BA800A1ED74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D78075024210BAF00A1ED74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +603,7 @@
 		};
 		4D78076224210BB000A1ED74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E987ACCEDC4959CEE1445EC /* Pods-CTAEvents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +622,7 @@
 		};
 		4D78076324210BB000A1ED74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8801378D10E5787A6183077 /* Pods-CTAEvents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +641,7 @@
 		};
 		4D78076524210BB000A1ED74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0D3A90C7C0843E4638C3A9 /* Pods-CTAEventsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +664,7 @@
 		};
 		4D78076624210BB000A1ED74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9446306E11C2FE072AF854 /* Pods-CTAEventsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
