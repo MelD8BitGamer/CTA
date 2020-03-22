@@ -7,3 +7,25 @@
 //
 
 import Foundation
+
+struct ArtDetailWrapper: Codable {
+    let artObject: DetailedArtObject
+}
+
+// MARK: - ArtObject
+struct DetailedArtObject: Codable {
+    let objectNumber: String
+    let title: String
+    let webImage: WebImage
+    let plaqueDescriptionEnglish: String
+    let principalMaker: String
+    let location: String
+}
+
+
+// MARK: - WebImage
+struct WebImage: Codable {
+    let url: String
+}
+
+
