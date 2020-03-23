@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Colorful-Abstract-iPhone-Wallpapers-7" translatesAutoresizingMaskIntoConstraints="NO" id="m9v-se-xDg">
+                                <rect key="frame" x="-1" y="-3" width="415" height="902"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p08-2M-JIf">
                                 <rect key="frame" x="0.0" y="88" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -64,31 +68,40 @@
                     <view key="view" contentMode="scaleToFill" id="aZC-tG-rD4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unicornSky" translatesAutoresizingMaskIntoConstraints="NO" id="uAb-tg-Vbo">
+                                <rect key="frame" x="-322" y="-97" width="1560" height="1274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Y2N-xR-Z8W"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rkk-D7-rdp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2065" y="149"/>
+            <point key="canvasLocation" x="2028.985507246377" y="-35.491071428571423"/>
         </scene>
-        <!--Rijks View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="r9H-ZJ-v77">
             <objects>
-                <viewController storyboardIdentifier="RijksViewController" id="ScY-m4-Kox" customClass="RijksViewController" customModule="CTAEvents" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="ScY-m4-Kox" customClass="MainViewController" customModule="CTAEvents" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v8r-K4-0Ob">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="dMD-Jc-3ma">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="citywatercolor" translatesAutoresizingMaskIntoConstraints="NO" id="okX-uu-u4D">
+                                <rect key="frame" x="0.0" y="20" width="414" height="876"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="dMD-Jc-3ma" userLabel="searchbar">
                                 <rect key="frame" x="0.0" y="88" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EAm-vg-VBr">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EAm-vg-VBr" userLabel="tableView">
                                 <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="rijksCell" rowHeight="89" id="nDW-To-UZH" customClass="RijksTableCell" customModule="CTAEvents" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myTableCell" rowHeight="89" id="nDW-To-UZH" customClass="ThingsTableViewCell" customModule="CTAEvents" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="89"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nDW-To-UZH" id="NxC-zh-dXp">
@@ -135,10 +148,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="artImage" destination="Uvq-Gb-ObX" id="xoE-q2-EoB"/>
-                                            <outlet property="artistNameLabel" destination="6j7-aF-4dw" id="Z4k-tA-fqb"/>
                                             <outlet property="favoriteHeartButton" destination="jdI-f6-s62" id="VEl-4a-yvt"/>
-                                            <outlet property="nameArtLabel" destination="eYD-xx-mkr" id="0Fc-Bc-AK6"/>
+                                            <outlet property="nameDetailLabel" destination="6j7-aF-4dw" id="Z4k-tA-fqb"/>
+                                            <outlet property="nameLabel" destination="eYD-xx-mkr" id="0Fc-Bc-AK6"/>
+                                            <outlet property="picImage" destination="Uvq-Gb-ObX" id="xoE-q2-EoB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -149,6 +162,10 @@
                             <constraint firstItem="dMD-Jc-3ma" firstAttribute="top" secondItem="Rao-eg-GFZ" secondAttribute="top" id="962-xc-MI8"/>
                             <constraint firstItem="EAm-vg-VBr" firstAttribute="trailing" secondItem="Rao-eg-GFZ" secondAttribute="trailing" id="ADD-MD-Ek9"/>
                             <constraint firstItem="EAm-vg-VBr" firstAttribute="bottom" secondItem="Rao-eg-GFZ" secondAttribute="bottom" id="FYN-8w-rqY"/>
+                            <constraint firstAttribute="bottom" secondItem="okX-uu-u4D" secondAttribute="bottom" id="MUc-oS-RMd"/>
+                            <constraint firstItem="okX-uu-u4D" firstAttribute="trailing" secondItem="Rao-eg-GFZ" secondAttribute="trailing" id="Maj-hg-If4"/>
+                            <constraint firstItem="okX-uu-u4D" firstAttribute="top" secondItem="v8r-K4-0Ob" secondAttribute="top" constant="20" symbolic="YES" id="Skg-Xq-nwq"/>
+                            <constraint firstItem="okX-uu-u4D" firstAttribute="leading" secondItem="Rao-eg-GFZ" secondAttribute="leading" id="dBk-nt-X1m"/>
                             <constraint firstItem="dMD-Jc-3ma" firstAttribute="leading" secondItem="Rao-eg-GFZ" secondAttribute="leading" id="iWi-Eh-hao"/>
                             <constraint firstItem="EAm-vg-VBr" firstAttribute="top" secondItem="dMD-Jc-3ma" secondAttribute="bottom" symbolic="YES" id="iut-dU-yHO"/>
                             <constraint firstItem="EAm-vg-VBr" firstAttribute="leading" secondItem="Rao-eg-GFZ" secondAttribute="leading" id="kPN-c6-hJp"/>
@@ -185,11 +202,11 @@
             </objects>
             <point key="canvasLocation" x="-1178" y="325"/>
         </scene>
-        <!--Art-->
+        <!--List-->
         <scene sceneID="pMY-Yb-Oiz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D5P-zf-fxN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Art" selectedImage="paintbrush" catalog="system" id="3Q4-Mj-5Gm"/>
+                    <tabBarItem key="tabBarItem" title="List" selectedImage="list.number" catalog="system" id="3Q4-Mj-5Gm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xb8-pY-kfG">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -223,27 +240,47 @@
             </objects>
             <point key="canvasLocation" x="200.00000000000003" y="148.66071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings-->
         <scene sceneID="f6c-E2-7hw">
             <objects>
                 <viewController id="6sj-gm-ire" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TBJ-WO-fya">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqD-ua-TTJ">
+                                <rect key="frame" x="47" y="318" width="320" height="260"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Experience" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kk4-0T-beq">
+                                <rect key="frame" x="20" y="138" width="374" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95810350700000002" green="0.8475495972" blue="0.67204848770000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bqD-ua-TTJ" firstAttribute="centerY" secondItem="TBJ-WO-fya" secondAttribute="centerY" id="7MY-Hh-LhF"/>
+                            <constraint firstItem="bqD-ua-TTJ" firstAttribute="centerX" secondItem="TBJ-WO-fya" secondAttribute="centerX" id="Dhz-4d-82Z"/>
+                            <constraint firstItem="kk4-0T-beq" firstAttribute="leading" secondItem="olx-D1-yZJ" secondAttribute="leading" constant="20" id="HgS-1S-Jwb"/>
+                            <constraint firstItem="bqD-ua-TTJ" firstAttribute="top" secondItem="kk4-0T-beq" secondAttribute="bottom" constant="150" id="IGB-9T-tnA"/>
+                            <constraint firstItem="olx-D1-yZJ" firstAttribute="trailing" secondItem="kk4-0T-beq" secondAttribute="trailing" constant="20" id="Kl2-hS-gkZ"/>
+                            <constraint firstItem="kk4-0T-beq" firstAttribute="top" secondItem="olx-D1-yZJ" secondAttribute="top" constant="50" id="xkf-qY-OHa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="olx-D1-yZJ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="REs-Di-M3N"/>
+                    <navigationItem key="navigationItem" title="Settings" id="REs-Di-M3N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWD-QM-fCM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1110.144927536232" y="845.08928571428567"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="Drl-Bg-EPy">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WgG-BY-79V" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gXg-UZ-LFF"/>
+                    <tabBarItem key="tabBarItem" title="Settings" selectedImage="settings" id="gXg-UZ-LFF"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p5T-ih-Psh">
@@ -261,7 +298,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Colorful-Abstract-iPhone-Wallpapers-7" width="736" height="1308"/>
+        <image name="citywatercolor" width="168" height="300"/>
         <image name="heart" catalog="system" width="64" height="54"/>
-        <image name="paintbrush" catalog="system" width="64" height="64"/>
+        <image name="list.number" catalog="system" width="64" height="48"/>
+        <image name="settings" width="25" height="25"/>
+        <image name="unicornSky" width="519" height="713"/>
     </resources>
 </document>

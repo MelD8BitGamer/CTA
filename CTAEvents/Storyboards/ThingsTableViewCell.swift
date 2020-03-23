@@ -8,12 +8,12 @@
 
 import UIKit
 
-class RijksTableCell: UITableViewCell {
+class ThingsTableViewCell: UITableViewCell {
 
   
-    @IBOutlet weak var artImage: UIImageView!
-    @IBOutlet weak var nameArtLabel: UILabel!
-    @IBOutlet weak var artistNameLabel: UILabel!
+    @IBOutlet weak var picImage: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameDetailLabel: UILabel!
     
     
     @IBOutlet weak var favoriteHeartButton: UIButton!
