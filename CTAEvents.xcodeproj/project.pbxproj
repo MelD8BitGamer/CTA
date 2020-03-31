@@ -23,6 +23,7 @@
 		4D20F0DE24259E5900CE0EE2 /* DatabaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */; };
 		4D20F0E0242828F000CE0EE2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0DF242828F000CE0EE2 /* SettingsViewController.swift */; };
 		4D20F0E22428292700CE0EE2 /* FavoritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0E12428292700CE0EE2 /* FavoritesCollectionViewCell.swift */; };
+		4D20F0E424296C2E00CE0EE2 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F0E324296C2D00CE0EE2 /* DetailedViewController.swift */; };
 		4D78074624210BA800A1ED74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074524210BA800A1ED74 /* AppDelegate.swift */; };
 		4D78074824210BA800A1ED74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074724210BA800A1ED74 /* SceneDelegate.swift */; };
 		4D78074A24210BA800A1ED74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78074924210BA800A1ED74 /* LoginViewController.swift */; };
@@ -68,6 +69,7 @@
 		4D20F0DD24259E5900CE0EE2 /* DatabaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseServices.swift; sourceTree = "<group>"; };
 		4D20F0DF242828F000CE0EE2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = CTAEvents/Storyboards/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
 		4D20F0E12428292700CE0EE2 /* FavoritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesCollectionViewCell.swift; path = CTAEvents/Controllers/FavoritesCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		4D20F0E324296C2D00CE0EE2 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailedViewController.swift; path = CTAEvents/Cells/DetailedViewController.swift; sourceTree = SOURCE_ROOT; };
 		4D78074224210BA800A1ED74 /* CTAEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTAEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D78074524210BA800A1ED74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D78074724210BA800A1ED74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				4D20F0C9242568EC00CE0EE2 /* MainViewController.swift */,
 				4D20F0CB2425690500CE0EE2 /* FavoriteArtViewController.swift */,
 				4D20F0DF242828F000CE0EE2 /* SettingsViewController.swift */,
+				4D20F0E324296C2D00CE0EE2 /* DetailedViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				4D20F0D62425942E00CE0EE2 /* RijksDetailModel.swift in Sources */,
 				4D20F0DA2425945600CE0EE2 /* TicketmasterDetailModel.swift in Sources */,
 				4D78074A24210BA800A1ED74 /* LoginViewController.swift in Sources */,
+				4D20F0E424296C2E00CE0EE2 /* DetailedViewController.swift in Sources */,
 				4D78074624210BA800A1ED74 /* AppDelegate.swift in Sources */,
 				4D20F0D424257AF700CE0EE2 /* ThingsTableViewCell.swift in Sources */,
 				4D20F0CE2425692800CE0EE2 /* RijksAPIClient.swift in Sources */,

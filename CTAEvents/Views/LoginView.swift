@@ -23,13 +23,13 @@ class LoginView: UIView {
     }()
     
     public lazy var CTANameLabel: UILabel = {
-           let label = UILabel()
-           label.font = UIFont(name: "HelveticaNeue-Bold", size: 25)
+        let label = UILabel()
+        label.font = UIFont(name: "HelveticaNeue-Bold", size: 25)
         label.attributedText = FormattedString.turnMyTextIntoColorText("CTA Events & Art")
-           label.textAlignment = .center
-           label.backgroundColor = .clear
-           return label
-       }()
+        label.textAlignment = .center
+        label.backgroundColor = .clear
+        return label
+    }()
     
     public lazy var CTALogo: UIImageView = {
         let iV = UIImageView()
@@ -98,6 +98,11 @@ class LoginView: UIView {
         return button
     }()
     
+    public lazy var constraintY: NSLayoutConstraint = {
+        let constraint = NSLayoutConstraint()
+        return constraint
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: UIScreen.main.bounds)
         commonInit()
@@ -119,35 +124,35 @@ class LoginView: UIView {
     }
     
     private func setUpInfoLabelConstraints() {
-       addSubview(infoLabel)
+        addSubview(infoLabel)
         infoLabel.translatesAutoresizingMaskIntoConstraints = false
+        constraintY = infoLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor,constant: 8)
+         constraintY.isActive = true
         
         NSLayoutConstraint.activate([
-            infoLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor,constant: 8),
+            
             infoLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            infoLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
-            //infoLabel.heightAnchor.constraint(equalToConstant: 40)
+            infoLabel.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
     }
-   
+    
     private func setUpCTANameLabelConstraints() {
-       addSubview(CTANameLabel)
+        addSubview(CTANameLabel)
         CTANameLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             CTANameLabel.topAnchor.constraint(equalTo: infoLabel.bottomAnchor, constant: 40),
             CTANameLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 40),
             CTANameLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -40)
-        
+            
         ])
     }
     
     private func setUpCTALogoView() {
-      addSubview(CTALogo)
+        addSubview(CTALogo)
         CTALogo.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
             CTALogo.topAnchor.constraint(equalTo: CTANameLabel.bottomAnchor),
-           // pursuitLogo.bottomAnchor.constraint(equalTo: bottomAnchor),
             CTALogo.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 150),
             CTALogo.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -150),
             CTALogo.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.height / 4)
@@ -166,7 +171,7 @@ class LoginView: UIView {
     }
     
     private func setUpPasswordTFConstraints() {
-    addSubview(passwordTextField)
+        addSubview(passwordTextField)
         passwordTextField.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
@@ -176,7 +181,7 @@ class LoginView: UIView {
         ])
     }
     private func setUpLoginButtonConstraints() {
-       addSubview(loginButton)
+        addSubview(loginButton)
         loginButton.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
@@ -188,7 +193,7 @@ class LoginView: UIView {
     }
     
     private func setUpStackViewConstraints() {
-       addSubview(stackView)
+        addSubview(stackView)
         stackView.addArrangedSubview(accountStateMessage)
         stackView.addArrangedSubview(accountStateButton)
         stackView.translatesAutoresizingMaskIntoConstraints = false
